@@ -17,7 +17,7 @@ public class BallFrame extends JFrame
 	
 	public BallFrame()
 	{
-		setTitle("做阻尼运动的二维动量完全弹性碰撞测试");
+		setTitle("做阻尼运动的二维动量小球完全弹性碰撞测试");
 		comp = new BallComponent();
 		add(comp, BorderLayout.CENTER);
 		JPanel buttonPanel = new JPanel();
